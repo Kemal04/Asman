@@ -1,0 +1,135 @@
+.fs-14 {
+    font-size: 14px;
+}
+
+.kemal {
+    background-image: linear-gradient(rgba(113, 196, 255, 0.8), rgba(113, 196, 255, 0.8)), url(../img/301A0PKdOVCvHvtmGb3idb943Ul2K5RjRE-e47VyeYc.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.kemal2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(229, 234, 238, 0.1)), url(../img/301A0PKdOVCvHvtmGb3idb943Ul2K5RjRE-e47VyeYc.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.bg-img {
+    background-image: linear-gradient(rgba(41, 80, 173, 0.7), rgba(41, 80, 173, 0.7)), url(../img/instruktsiya_kak_kupit_kachestvennyy_avtomobil_s_probegom_na_avito_avto_.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.w-85 {
+    width: 83%;
+}
+
+.bg-img-darkblue {
+    background-image: linear-gradient(rgba(23, 45, 97, 0.7), rgba(23, 45, 97, 0.7)), url(../img/unnamed.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.p-80 {
+    padding: 102px 49px 0 49px;
+}
+
+.svg-hover:hover {
+    fill: #fff;
+}
+
+.nav-link {
+    color: #fff!important;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+}
+
+.w-lg-75 {
+    width: 75%;
+}
+
+.w-75-sm {
+    width: 75%;
+}
+
+.d-flex-just {
+    display: flex;
+    justify-content: center;
+}
+
+/* i pad pro */
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1366px) {}
+
+/* IpanPro */
+
+/* Ipad */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    .p-80 {
+        padding: 80px 80px;
+    }
+    .d-none-sm {
+        display: none;
+    }
+    .text-center-sm {
+        text-align: center;
+    }
+    .w-50 {
+        width: 100%!important;
+    }
+    .foot {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .w-lg-75 {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Ipad */
+
+/* Iphone */
+
+@media screen and (min-device-width: 280px) and (max-device-width: 747px) {
+    .d-none-sm {
+        display: none;
+    }
+    .text-center-sm {
+        text-align: center;
+    }
+    .w-50 {
+        width: 100%!important;
+    }
+    .w-75-sm {
+        width: 100%;
+    }
+    .w-lg-75 {
+        width: 75%;
+        text-align: center;
+    }
+    .foot {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .d-flex-just {
+        display: block;
+        margin-left: 15%;
+    }
+}
+
+/* IPhone */
